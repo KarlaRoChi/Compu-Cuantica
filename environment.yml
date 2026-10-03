@@ -1,0 +1,15 @@
+name: compu_cuantica
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - pip:
+      - qiskit
+      - qiskit-ibm-runtime
+      - pylatexenc
+      - matplotlib
+      - numpy
+      - scipy
+      - sympy
